@@ -18,6 +18,26 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CustomerOrder.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="OrderManager.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TaskManager.h" />
+    <ClInclude Include="Utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="345_ms3_main_prof.cpp" />
+    <ClCompile Include="CustomerItem.cpp" />
+    <ClCompile Include="CustomerOrder.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="OrderManager.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{9FA71A73-26F5-4FF3-ADC6-429F7A524E55}</ProjectGuid>
@@ -150,27 +170,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerItem.h" />
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerOrder.h" />
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Item.h" />
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\ItemManager.h" />
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\OrderManager.h" />
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Task.h" />
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\TaskManager.h" />
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Utilities.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\345_ms3_main_prof.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerItem.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerOrder.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Item.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\ItemManager.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\OrderManager.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Task.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\TaskManager.cpp" />
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Utilities.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

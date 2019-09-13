@@ -15,57 +15,54 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerItem.h">
+    <ClInclude Include="CustomerOrder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerOrder.h">
+    <ClInclude Include="Item.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Item.h">
+    <ClInclude Include="ItemManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\ItemManager.h">
+    <ClInclude Include="OrderManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\OrderManager.h">
+    <ClInclude Include="Task.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Task.h">
+    <ClInclude Include="TaskManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\TaskManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Utilities.h">
+    <ClInclude Include="Utilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\345_ms3_main_prof.cpp">
+    <ClCompile Include="345_ms3_main_prof.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerItem.cpp">
+    <ClCompile Include="CustomerItem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\CustomerOrder.cpp">
+    <ClCompile Include="CustomerOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Item.cpp">
+    <ClCompile Include="Item.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\ItemManager.cpp">
+    <ClCompile Include="ItemManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\OrderManager.cpp">
+    <ClCompile Include="OrderManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Task.cpp">
+    <ClCompile Include="Task.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\TaskManager.cpp">
+    <ClCompile Include="TaskManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="\\mac\Home\Desktop\Semester3\OOP345\Milestone\InventoryApplication\InventoryApplication\Utilities.cpp">
+    <ClCompile Include="Utilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
